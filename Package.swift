@@ -29,6 +29,7 @@ let package = Package(
             ],
             path: "GeoFire",
             exclude: [
+		"Firebase",
                 "./Utils",
             ],
             publicHeadersPath: "./API"
